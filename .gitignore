@@ -1,6 +1,14 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*/
+web/app/upgrade
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+
 # WordPress
-wp
-.htaccess
+web/wp
+web/.htaccess
 
 # WP-CLI
 db-sync
@@ -10,13 +18,6 @@ sql-dump-*.sql
 .env
 .env.*
 !.env.example
-
-# Application
-app/uploads
-app/upgrade
-app/plugins/*
-app/mu-plugins/*
-!app/mu-plugins/register-theme-directory.php
 
 # Vendor (e.g. Composer)
 vendor/*
